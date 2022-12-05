@@ -10,6 +10,13 @@
     
 }
 
+@font-face {
+    font-family: 'Android';
+    src: url('/https://github.com/irlan24/site-curso/blob/main/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    
+}
+
 
 
 :root{
