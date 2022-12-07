@@ -77,13 +77,18 @@ main{
     justify-content: center;
     align-items: center;    
     background-color: rgba(255, 255, 255, 0.808);
-    margin: auto;
-    padding: 15px;
+    margin: auto;    
     width: 800px;
+    padding: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
     margin-bottom: 20px;
     border-radius: 0px 0px 5px 5px;
 }
+article{
+    margin: auto;    
+    max-width: 800px;
+}
+
 article h1{
     font-family: 'idroid';
     padding: 10px;
@@ -96,62 +101,26 @@ article h1{
     text-align: center;
 }
 
-section div p{
-    text-indent: 20px;
-}
-section div span{
-    color: #1C633B;
-    font-weight: bold;
-}
-section div h1{
-    font-size: 2em;
-}
-section div h2{
-    background-image: linear-gradient(to right, #1c633b33, #3bd27f1e );
-    margin: 0px;
-}
-section div img{
-    margin: 10px 0px 10px 0px;
-    border-radius: 2px;
+
     
+
+.video{
+    display: flex;
+    padding: 20px;
 }
 
 /* SABER MAIS */
 
-#saberMais{
-    display: flex;
-    justify-content: flex-start;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 450px;
-
-
+aside{
+    max-width: 800px;
+    height: auto;
+    background-color: #84E1AD;
+    border-radius: 10px;
 }
-#saberMais div{
-    margin-top: 10px;
-    background-color: #3bd27f6b;    
-    border-radius: 15px;
-}
-
-#saberMais h1{
-    font-size: 20pt;
-    
-    color: white;
-    background-color: #2FA866;
-    width: 780px;
-    padding: 13px;
-    border-radius: 15px 15px 0px 0px;
-    margin-bottom: 10px;
-    
-}
-
-#saberMais p{
-    font-weight: bold;    
-    padding: 7px;
-    
-}
-#saberMais ul{
-    display: block;
-    left: 20px;
+aside h3{
+    background-color: #1c633be1;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
 }
 
 
