@@ -73,49 +73,67 @@ nav a:hover{
 
 /* Corpo do site */
 main{
-    display: flex;
-    justify-content: center;
-    align-items: center;    
     background-color: rgba(255, 255, 255, 0.808);
     margin: auto;    
-    width: 800px;
+    max-width: 800px;
+    min-width: 320px;
     padding: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
     margin-bottom: 20px;
     border-radius: 0px 0px 5px 5px;
 }
-article{
-    margin: auto;    
+main p{
+    line-height: 1.3em;
+    text-indent: 20px;
+    padding: 10px;
     max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+
 }
 
-article h1{
+main h1, h2{
     font-family: 'idroid';
-    padding: 10px;
+    
     color: #1C633B;
-    margin-bottom: 10px;
+    
 }
-#bugdroid{
-    margin: 10px 0px 10px 0px;
-    border-radius: 2px;
-    text-align: center;
+main h2{
+    background-image: linear-gradient(to right, #84E1AD, transparent);
 }
+
+
+
+main img{
+    margin: auto;
+    width: 100%;
+}
+.pequena{
+    width: 50%;
+    display: flex;
+}
+
 
 
     
 
 .video{
     display: flex;
-    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
 }
 
 /* SABER MAIS */
 
 aside{
-    max-width: 800px;
+    max-width: 780px;
     height: auto;
     background-color: #84E1AD;
     border-radius: 10px;
+    margin: auto;
+    
 }
 aside h3{
     background-color: #1c633be1;
@@ -123,14 +141,33 @@ aside h3{
     padding: 10px;
 }
 
+aside ul{
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: '\2714';
+    padding: 10px;
+}
+
 
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
     text-align: center;
     background-color: #1C633B;
     color: white;
+    height: 30px;
+    
+    
 }
-footer span{
+footer a{
     color: #84E1AD;
     font-weight: bold;
     padding-top: 10px;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: rgb(245, 184, 184);
 }
